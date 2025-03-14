@@ -9,8 +9,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-@Entity
-@Table(name = "tb_user")
+@Entity // Setando como uma entidade.
+@Table(name = "tb_user") // Criando a tabela que armazenará objetos do tipo 'User'.
 public class User implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
