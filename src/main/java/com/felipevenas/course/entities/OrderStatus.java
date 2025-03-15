@@ -18,6 +18,7 @@ public enum OrderStatus {
 		return code;
 	}
 	
+	// Classe para referenciar um número com um Enum.
 	public static OrderStatus valueOf(int code) {
 		for (OrderStatus value : OrderStatus.values()) {
 			if (value.getCode() == code) {
